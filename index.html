@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ananya Saggi | Data Science & AI Engineer</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Styrene+A:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+          <rect width="36" height="36" rx="8" fill="#D97757"/>
+          <text x="18" y="24" text-anchor="middle" fill="#FAF6F1" font-size="18" font-weight="700" font-family="Inter">A</text>
+        </svg>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#tech">Tech Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="hero-name">Ananya Saggi</h1>
+      <p class="hero-tagline">Data Engineer & AI Developer</p>
+      <p class="hero-description">
+        I love turning messy data into powerful pipelines and building AI that actually ships. Take a look around!
+      </p>
+    </div>
+  </header>
+
+  <!-- Tech Stack Section -->
+  <section id="tech" class="tech-section">
+    <div class="container">
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="section-divider"></div>
+      <div class="tech-terminal">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <span class="terminal-title">ananya@portfolio ~ /tech-stack</span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-line">
+            <span class="terminal-prompt">$</span>
+            <span class="terminal-cmd">cat languages.txt</span>
+          </div>
+          <div class="terminal-output">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">C/C++</span>
+            <span class="tech-tag">R</span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">$</span>
+            <span class="terminal-cmd">cat frameworks.txt</span>
+          </div>
+          <div class="terminal-output">
+            <span class="tech-tag">LangChain</span>
+            <span class="tech-tag">LangGraph</span>
+            <span class="tech-tag">Snowpark</span>
+            <span class="tech-tag">Playwright</span>
+            <span class="tech-tag">BeautifulSoup</span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">$</span>
+            <span class="terminal-cmd">cat data-cloud.txt</span>
+          </div>
+          <div class="terminal-output">
+            <span class="tech-tag">Snowflake</span>
+            <span class="tech-tag">GCP</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Oracle DB</span>
+            <span class="tech-tag">Google BigQuery</span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">$</span>
+            <span class="terminal-cmd">cat tools.txt</span>
+          </div>
+          <div class="terminal-output">
+            <span class="tech-tag">Git/GitHub</span>
+            <span class="tech-tag">Tableau</span>
+            <span class="tech-tag">Jupyter</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">VS Code</span>
+          </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">$</span>
+            <span class="terminal-cursor">_</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="data-eng">Data Engineering</button>
+        <button class="filter-btn" data-filter="ai">AI</button>
+        <button class="filter-btn" data-filter="analytics">Analytics</button>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="project-grid">
+
+        <!-- Project 1: Snowflake Reverse ETL -->
+        <div class="project-card" data-category="data-eng">
+          <div class="project-thumb">
+            <div class="project-visual">
+              <div class="project-icon">
+                <i class="fas fa-sync-alt"></i>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Data Engineering</span>
+            </div>
+            <div class="project-hover-desc">
+              <p>Reverse ETL from Snowflake to Google Drive using Snowpark &amp; GCP. Delivered a reusable prototype within one week.</p>
+            </div>
+          </div>
+          <h3 class="project-title">Snowflake Reverse ETL</h3>
+          <p class="project-desc">Built a reverse ETL process using Snowpark and GCP to seamlessly upload CSV files from Snowflake to Google Drive.</p>
+        </div>
+
+        <!-- Project 2: Auto Monitor LLM Position -->
+        <div class="project-card" data-category="ai">
+          <div class="project-thumb">
+            <div class="project-visual">
+              <div class="project-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">AI</span>
+            </div>
+            <div class="project-hover-desc">
+              <p>Tracks brand visibility across LLM outputs with a custom scoring matrix. Built with Gemini, LangChain &amp; Snowflake.</p>
+            </div>
+          </div>
+          <h3 class="project-title">Auto Monitor LLM Position</h3>
+          <p class="project-desc">Automated brand visibility tracking in LLM responses using Gemini, LangChain, LangGraph, and Snowflake.</p>
+        </div>
+
+        <!-- Project 3: AI Web Scraping -->
+        <div class="project-card" data-category="ai">
+          <div class="project-thumb">
+            <div class="project-visual">
+              <div class="project-icon">
+                <i class="fas fa-spider"></i>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">AI</span>
+            </div>
+            <div class="project-hover-desc">
+              <p>AI-powered competitor scraping with Gemini &amp; LangGraph. Automatically extracts and compares product prices at scale.</p>
+            </div>
+          </div>
+          <h3 class="project-title">AI Competitor Price Tracker</h3>
+          <p class="project-desc">AI-driven web scraping solution using LangGraph and Gemini for automated competitor price tracking.</p>
+        </div>
+
+        <!-- Project 4: Macroeconomic Data Pipeline -->
+        <div class="project-card" data-category="data-eng">
+          <div class="project-thumb">
+            <div class="project-visual">
+              <div class="project-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Data Engineering</span>
+            </div>
+            <div class="project-hover-desc">
+              <p>Automated weekly macroeconomic data ingestion into Snowflake via Python, improving sales forecast accuracy.</p>
+            </div>
+          </div>
+          <h3 class="project-title">Macroeconomic Data Pipeline</h3>
+          <p class="project-desc">Automated weekly ingestion of macroeconomic data using Snowflake and Python to enhance sales forecast accuracy.</p>
+        </div>
+
+        <!-- Project 5: Competitor Intelligence Pipeline -->
+        <div class="project-card" data-category="data-eng">
+          <div class="project-thumb">
+            <div class="project-visual">
+              <div class="project-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Data Engineering</span>
+            </div>
+            <div class="project-hover-desc">
+              <p>Scalable scraping with Playwright &amp; BeautifulSoup. Expanded competitor product data coverage significantly.</p>
+            </div>
+          </div>
+          <h3 class="project-title">Competitor Intelligence Pipeline</h3>
+          <p class="project-desc">Scalable web scraping pipeline with Playwright and BeautifulSoup, increasing product data coverage.</p>
+        </div>
+
+        <!-- Project 6: Oracle Data Automation -->
+        <div class="project-card" data-category="analytics">
+          <div class="project-thumb">
+            <div class="project-visual">
+              <div class="project-icon">
+                <i class="fas fa-database"></i>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Analytics</span>
+            </div>
+            <div class="project-hover-desc">
+              <p>Python automation for Oracle DB: extract, wrangle &amp; insert distributor data. Cut data acquisition time by 50%.</p>
+            </div>
+          </div>
+          <h3 class="project-title">Oracle Data Automation</h3>
+          <p class="project-desc">Python solution to extract, wrangle, and insert distributor data into Oracle databases, cutting data acquisition time by 50%.</p>
+        </div>
+
+        <!-- Project 7: Client Metrics Analytics -->
+        <div class="project-card" data-category="analytics">
+          <div class="project-thumb">
+            <div class="project-visual">
+              <div class="project-icon">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Analytics</span>
+            </div>
+            <div class="project-hover-desc">
+              <p>Built client metrics dashboards in Excel &amp; Tableau. Delivered actionable insights, reducing manual reporting by 25%.</p>
+            </div>
+          </div>
+          <h3 class="project-title">Client Metrics Dashboard</h3>
+          <p class="project-desc">Leveraged Excel and Tableau for in-depth client metrics analysis, driving a 25% reduction in manual reporting.</p>
+        </div>
+
+        <!-- Project 8: Data Integration -->
+        <div class="project-card" data-category="data-eng">
+          <div class="project-thumb">
+            <div class="project-visual">
+              <div class="project-icon">
+                <i class="fas fa-layer-group"></i>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <span class="project-tag">Data Engineering</span>
+            </div>
+            <div class="project-hover-desc">
+              <p>Consolidated multiple Oracle DB tables into a unified view, improving data accessibility for over 1M records.</p>
+            </div>
+          </div>
+          <h3 class="project-title">Multi-Source Data Integration</h3>
+          <p class="project-desc">Integrated data from multiple Oracle database tables into a comprehensive view, improving accessibility for 1M+ records.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container about-container">
+      <div class="about-image">
+        <div class="about-image-placeholder">
+          <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <rect width="300" height="300" rx="16" fill="#F0E6D8"/>
+            <circle cx="150" cy="120" r="50" fill="#D97757" opacity="0.3"/>
+            <rect x="100" y="180" width="100" height="60" rx="8" fill="#D97757" opacity="0.2"/>
+            <text x="150" y="270" text-anchor="middle" fill="#3D3229" font-size="12" opacity="0.5">Your Photo</text>
+          </svg>
+        </div>
+      </div>
+      <div class="about-text">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+        <p>
+          I'm Ananya Saggi, a Computer Science student at Northeastern University's Khoury College 
+          with an Artificial Intelligence concentration (GPA: 3.68, Dean's List, Honors Scholarship). 
+          I'm passionate about building data pipelines and AI-driven solutions that create real business impact.
+        </p>
+        <p>
+          As a Data Engineer & AI Co-op at Comoto Holdings, I automated macroeconomic data ingestion, 
+          developed AI-driven web scraping with LangGraph and Gemini, and built scalable competitor 
+          intelligence pipelines. Previously at State Street Bank, I cut data acquisition time by 50% 
+          through Python automation across Oracle databases.
+        </p>
+        <p>
+          My coursework in Algorithms, Data Science and Machine Learning, Mathematics of Data Models, 
+          and Theory of Computation gives me a strong foundation for tackling complex engineering challenges.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <h2 class="footer-title">Let's Connect</h2>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ananya-saggi-36aa961b2" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/AnanyaS05" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:contact.ananyasaggi@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Ananya Saggi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
