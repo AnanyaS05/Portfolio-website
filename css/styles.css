@@ -145,6 +145,15 @@ img {
   width: 100%;
 }
 
+.nav-links a.active-link {
+  color: var(--terracotta);
+}
+
+.nav-links a.active-link::after {
+  width: 100%;
+  background: var(--terracotta);
+}
+
 /* ---- Hero ---- */
 .hero {
   padding: 140px 24px 80px;
