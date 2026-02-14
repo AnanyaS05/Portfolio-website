@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E08B67" />
+      <stop offset="0.55" stop-color="#D97757" />
+      <stop offset="1" stop-color="#B85C3A" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bg)" />
+  <rect x="5" y="5" width="54" height="54" rx="15" fill="none" stroke="#F0D5C0" stroke-opacity="0.35" />
+  <text
+    x="32"
+    y="44"
+    text-anchor="middle"
+    fill="#FAF6F1"
+    font-size="42"
+    font-weight="600"
+    font-family="'Cormorant Garamond', Georgia, serif"
+  >
+    A
+  </text>
+</svg>
