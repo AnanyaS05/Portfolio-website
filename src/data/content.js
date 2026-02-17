@@ -43,20 +43,20 @@ export const projects = [
     icon: "fas fa-eye",
     title: "Auto Monitor LLM Position",
     description:
-      "Automated brand visibility tracking in LLM responses using Gemini, LangChain, LangGraph, and Snowflake.",
+      "Launched an LLM share-of-voice monitoring pipeline to track brand visibility and competitive positioning, persisting analytics in Snowflake.",
     hoverDescription:
-      "Tracks brand visibility across LLM outputs with a custom scoring matrix. Built with Gemini, LangChain, and Snowflake.",
+      "Built a custom NLP scoring and telemetry layer extracting 25+ response metrics and 25+ KPIs to power Tableau-ready reporting.",
   },
   {
     id: "ai-competitor-price-tracker",
     category: "ai",
     tag: "AI",
     icon: "fas fa-tags",
-    title: "AI Competitor Price Tracker",
+    title: "Price Pursuit AI",
     description:
-      "AI-driven web scraping solution using LangGraph and Gemini for automated competitor price tracking.",
+      "Built an AI-driven proof of concept using LangGraph and Gemini for competitor price comparison across major websites.",
     hoverDescription:
-      "AI-powered competitor scraping with Gemini and LangGraph. Automatically extracts and compares product prices at scale.",
+      "Automates competitor scraping with Playwright and BeautifulSoup, stores results in MySQL, and supports downstream Snowflake integration.",
   },
   {
     id: "macroeconomic-data-pipeline",
@@ -116,9 +116,9 @@ export const projects = [
 ];
 
 export const aboutParagraphs = [
-  "I'm Ananya Saggi, a Computer Science student at Northeastern University's Khoury College with an Artificial Intelligence concentration (GPA: 3.68, Dean's List, Honors Scholarship). I'm passionate about building data pipelines and AI-driven solutions that create real business impact.",
-  "As a Data Engineer and AI Co-op at Comoto Holdings, I automated macroeconomic data ingestion, developed AI-driven web scraping with LangGraph and Gemini, and built scalable competitor intelligence pipelines. Previously at State Street Bank, I cut data acquisition time by 50% through Python automation across Oracle databases.",
-  "My coursework in Algorithms, Data Science and Machine Learning, Mathematics of Data Models, and Theory of Computation gives me a strong foundation for tackling complex engineering challenges.",
+  "I'm Ananya Saggi, a Computer Science student at Northeastern University's Khoury College with an Artificial Intelligence concentration (GPA: 3.7, Dean's List, Honors Scholarship). I'm passionate about building data pipelines and AI-driven solutions that create real business impact.",
+  "As a Data Engineer and AI Co-op at Comoto Holdings, I automated macroeconomic data ingestion, developed AI-driven web scraping with LangGraph and Gemini, and built LLM monitoring pipelines extracting 25+ metrics and 25+ KPIs into Tableau-ready Snowflake tables. Previously at State Street Bank, I cut data acquisition time by 50% through Python automation across Oracle databases.",
+  "My coursework in Algorithms, Data Science and Machine Learning, Mathematics of Data Models, Software Engineering, and Natural Language Processing gives me a strong foundation for tackling complex engineering challenges.",
 ];
 
 const education = [
@@ -127,8 +127,8 @@ const education = [
     date: "Sept 2022 - May 2026",
     subtitle: "B.S. Computer Science - Artificial Intelligence Concentration",
     details: [
-      "GPA: 3.68 / 4.0 | Dean's List | Honors Scholarship",
-      "Courses: Algorithms, Computer Systems, Object Oriented Design, Mathematics of Data Models, Data Science and Machine Learning, Theory of Computation",
+      "GPA: 3.7 / 4.0 | Dean's List | Honors Scholarship",
+      "Courses: Algorithms, Computer Systems, Object Oriented Design, Mathematics of Data Models, Data Science and Machine Learning, Software Engineering, Natural Language Processing",
     ],
   },
 ];
@@ -136,13 +136,13 @@ const education = [
 const experience = [
   {
     title: "Comoto Holdings - Data Engineer & AI Co-op",
-    date: "Jan - June 2025",
+    date: "Jan - Dec 2025",
     location: "Philadelphia, PA",
     bullets: [
       "Automated weekly ingestion of macroeconomic data using Snowflake and Python, enhancing accuracy of sales forecasts",
       "Developed AI-driven web scraping solution using LangGraph and Gemini, enabling competitor price tracking automation",
       "Built scalable competitor intelligence pipeline with Playwright and BeautifulSoup, increasing coverage of product data",
-      "Implemented automated monitoring of brand visibility in LLM responses using Python and Snowflake, informing strategic decisions",
+      "Automated LLM brand-visibility tracking in Snowflake, extracting 25+ response metrics and 25+ KPIs and publishing Tableau-ready tables",
     ],
   },
   {
@@ -163,7 +163,7 @@ export const resumeTabs = [
     id: "data-eng",
     label: "Data Engineer",
     icon: "fas fa-database",
-    downloadHref: "/Ananya_Saggi_Resume_Data_Engineer.pdf",
+    downloadHref: "/AS_Resume_Data_Engineer.pdf",
     skills: {
       proficient: [
         "Python",
@@ -179,7 +179,7 @@ export const resumeTabs = [
         "VS Code",
         "Toad",
       ],
-      familiar: ["HTML", "CSS", "Git/GitHub", "IntelliJ", "Tableau", "Anaconda"],
+      familiar: ["React", "TypeScript", "HTML", "CSS", "Git/GitHub", "IntelliJ", "Tableau", "Anaconda"],
     },
     projects: [
       {
@@ -194,12 +194,12 @@ export const resumeTabs = [
       },
       {
         title: "Auto Monitor LLM Position",
-        date: "May - June 2025",
+        date: "May - Dec 2025",
         tech: ["Python", "LangChain", "LangGraph", "GCP", "Snowflake"],
         bullets: [
-          "Implemented automated monitoring system using Gemini LLM and Snowflake to track brand visibility in LLM outputs",
-          "Analyzed responses for motorcycle parts and accessory queries based on custom scoring matrix",
-          "Expanded the system's query set and devised a mechanism for comprehensive LLM response analytics",
+          "Launched an LLM Share-of-Voice monitoring pipeline to measure brand visibility and competitive positioning in LLM answers for motorcycle parts and accessory queries",
+          "Built a custom NLP scoring matrix and telemetry layer extracting 25+ metrics per response and computing 25+ rollup KPIs",
+          "Expanded the query set and published ready-to-use Snowflake tables and views for downstream Tableau dashboards and recurring reporting",
         ],
       },
     ],
@@ -208,7 +208,7 @@ export const resumeTabs = [
     id: "ai",
     label: "AI & Machine Learning",
     icon: "fas fa-robot",
-    downloadHref: "/Ananya_Saggi_Resume_AI.pdf",
+    downloadHref: "/AS_Resume_AI.pdf",
     skills: {
       proficient: [
         "Python",
@@ -223,7 +223,7 @@ export const resumeTabs = [
         "VS Code",
         "Toad",
       ],
-      familiar: ["HTML", "CSS", "Git/GitHub", "IntelliJ", "Tableau", "Anaconda"],
+      familiar: ["React", "TypeScript", "HTML", "CSS", "Git/GitHub", "IntelliJ", "Tableau", "Anaconda"],
     },
     projects: [
       {
@@ -238,12 +238,12 @@ export const resumeTabs = [
       },
       {
         title: "Auto Monitor LLM Position",
-        date: "May - June 2025",
+        date: "May - Dec 2025",
         tech: ["Python", "LangChain", "LangGraph", "GCP", "Snowflake"],
         bullets: [
-          "Implemented automated monitoring system using Gemini-powered chain workflow and Snowflake to track brand visibility in LLM outputs",
-          "Analyzed responses for motorcycle parts and accessory queries using NLP based on custom scoring matrix",
-          "Expanded the system's query set and devised a mechanism for comprehensive LLM response analytics",
+          "Launched an LLM Share-of-Voice monitoring pipeline to measure brand visibility and competitive positioning in LLM answers for motorcycle parts and accessory queries",
+          "Built a custom NLP scoring matrix and telemetry layer extracting 25+ metrics per response and computing 25+ rollup KPIs",
+          "Expanded the query set and published ready-to-use Snowflake tables and views for downstream Tableau dashboards and recurring reporting",
         ],
       },
     ],
